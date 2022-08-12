@@ -137,6 +137,8 @@ body {
   justify-content: center;
 }
 
+/* media query */
+
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .modal-cont {
     width: 60vw;
