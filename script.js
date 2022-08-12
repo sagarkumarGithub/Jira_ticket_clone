@@ -122,7 +122,7 @@ function createTicket(ticketColor, ticketTask, ticketID) {
     `;
   mainCont.appendChild(ticketCont);
 
-   //  Create object of ticket and add to array
+  // Create object of ticket and add to array
   if (!ticketID) {
     ticketsArr.push({ ticketColor, ticketTask, ticketID: id });
     localStorage.setItem("jira_tickets", JSON.stringify(ticketsArr));
